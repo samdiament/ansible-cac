@@ -2,7 +2,7 @@
 controller_templates:
     - name: "CaC | AAP Configify"
       description: Test
-      playbook': ansible-cac/aap_configify.yml
+      playbook: aap_configify.yml
       execution_environment: Default execution environment
       project: ansible-cac
       inventory: Demo Inventory
