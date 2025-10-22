@@ -6,4 +6,4 @@ controller_templates:
       project: Demo Project
       job_type: run
       inventory: Demo Inventory
-      credential: []
+      creds: []
