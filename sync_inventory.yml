@@ -1,0 +1,12 @@
+---
+- name: Sync AAP Controller Inventory
+  hosts: localhost
+  gather_facts: false
+  become: false
+
+  tasks:
+    - name: Update all inventory sources
+      when: inv_env == "AWS"
+      ansible.controller.inventory_source_update:
+        name: AWS
+        inventory: AWS

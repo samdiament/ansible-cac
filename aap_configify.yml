@@ -1,0 +1,8 @@
+---
+- name: Export AAP configs
+  hosts: localhost
+  gather_facts: false
+  become: false
+
+- name: Run configify.aapconfig.aap_audit_templates
+  ansible.builtin.import_playbook: configify.aapconfig.aap_audit_templates.yml

@@ -1,0 +1,8 @@
+---
+collections:
+  - name: infra.aap_configuration_extended
+  - name: ansible.controller
+  - name: ansible.hub
+  - name: ansible.platform
+  - name: infra.aap_configuration
+  - name: configify.aapconfig
