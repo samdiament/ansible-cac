@@ -1,0 +1,10 @@
+---
+controller_templates:
+    - name: "CaC | AAP Configify"
+      description: Test
+      playbook': ansible-cac/aap_configify.yml
+      execution_environment: Default execution environment
+      project: ansible-dev
+      inventory: Demo Inventory
+      job_slice_count: 1
+      job_type: run
