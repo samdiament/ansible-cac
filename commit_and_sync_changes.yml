@@ -36,6 +36,7 @@
 
   roles:
     - role: infra.aap_configuration_extended.filetree_read
+    - role: infra.aap_configuration.controller_job_templates
 
   post_tasks:
     - name: "Delete the Authentication Token used"
