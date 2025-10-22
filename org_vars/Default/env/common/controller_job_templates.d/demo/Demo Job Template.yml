@@ -1,8 +1,9 @@
 ---
 controller_templates:
     - name: Demo Job Template
-      description': hello world
-      playbook': hello_world.yml
-      project': Demo Project
-      job_type': run
-      inventory': Demo Inventory
+      description: hello world
+      playbook: hello_world.yml
+      project: Demo Project
+      job_type: run
+      inventory: Demo Inventory
+      credential: []
