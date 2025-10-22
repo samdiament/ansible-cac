@@ -4,7 +4,7 @@ controller_templates:
       description: Test
       playbook': ansible-cac/aap_configify.yml
       execution_environment: Default execution environment
-      project: ansible-dev
+      project: ansible-cac
       inventory: Demo Inventory
       job_slice_count: 1
       job_type: run
