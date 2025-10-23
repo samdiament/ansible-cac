@@ -1,9 +1,8 @@
 ---
 controller_templates:
     - name: Demo Job Template
-      description: hello world
+      description: Hi Sim
       playbook: hello_world.yml
       project: Demo Project
       job_type: run
       inventory: Demo Inventory
-      creds: []
